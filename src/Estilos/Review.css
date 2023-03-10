@@ -1,0 +1,28 @@
+
+/* ESTILOS QUE SE LE APLICARA A LOS DATOS QUE ENTRARON AL JSX, cada componente lleva su propios  JSX Y SU ESTILO PROPIO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  }
+  .box-container{
+    padding: 30px;
+    text-align: center;
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 10px 28px 35px rgb(59, 59, 59);
+  
+  }
+  
+  .box-container>p{
+  line-height: 30px;
+  color: gray;
+  margin-bottom: 50px;
+  }
+  .img-rounder{
+    border-radius: 50%;
+    width: 80px;
+    margin-bottom: 20px;
+  }
